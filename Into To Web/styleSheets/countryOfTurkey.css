@@ -1,0 +1,137 @@
+/*  
+	Sean Fiscus 
+	11/14/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1em 1em 1em;
+    background-color: #97282C;
+    color: white; 
+    font-family: Georgia;
+    font-size: 18px;
+}
+
+hr {
+    color: white;
+}
+
+p#whatToKnow {
+    clear: both;
+    font-family: Georgia;
+}
+
+h2#thisIsTurkey {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: black 2px 3px 4px;
+    background-color: #CF4858;
+    clear: both;
+    font-family: Monotype Corsiva;
+    color: white; 
+}
+
+h3#getOverHere {
+    text-align: center;
+    font-size: 28px;
+    text-shadow: black 2px 3px 4px;
+}
+
+h4#ourArtist {
+    text-shadow: black 2px 3px 4px;
+    text-align: center;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    clear: both;
+    margin-left: 121em;
+    font-size: 14px;
+}
+
+title {
+    background-color: white;
+}
+
+article#makeItGood {
+    width: 35em;
+    float: left;
+    padding: 0em 1em 1em 1em;
+}
+
+article#makeItGood a:hover {
+    color: #DDD4BC;
+}
+
+a:visited {
+    color: white;	
+}
+
+img#itsBlue {
+    border: .5em ridge #E05151;
+    box-shadow: black 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;
+}
+
+article#artistNames {
+    background-color: #CF4858;
+    border: 5px ridge #E05151;
+    float: right;
+    padding: 0em 3em 0em 2em;
+    margin-right: 2em;  
+    box-shadow: black 3px 4px 5px;
+    color: white;
+    text-align: left;
+    text-shadow: black 2px 3px 4px;
+}
+
+article#artistNames a:hover {
+    color: #DDD4BC;
+}
+
+article#gotTheView {
+    width: 32em;
+    float: right;
+    padding: 0em 2em 1em 1em;
+}
+
+article#gotTheView a:hover {
+    color: #DDD4BC;
+}
+
+img#greatScott {
+    border: .5em ridge #E05151;
+    box-shadow: black 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;
+}
+
+article#findTheHall {
+    width: 30em;
+    float: left;
+    padding: 0em 1em 1em 1em;
+}
+
+article#findTheHall a:hover {
+    color: #DDD4BC;
+}
+
+img#someBoat {
+    border: .5em ridge #E05151;
+    box-shadow: black 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;
+}
+
+nav#goBack {
+    text-align: center;
+    word-spacing: 3em;
+    padding: 0em 0em 1em 0em;
+    font-size: 18px; 
+}

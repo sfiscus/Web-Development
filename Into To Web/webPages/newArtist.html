@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--  Author:  Sean Fiscus
+        Date:    11/17/2014   
+  -->
+  <title>Join the Arte Del Mundo Artist Family</title>
+  <meta charset="UTF-8"  />
+  <script src="../javaScriptFiles/newArtist.js"></script>
+  <link href="../styleSheets/newArtist.css"  rel="stylesheet"  type="text/css"  />
+  <script>
+    document.createElement('header');
+    document.createElement('footer');
+    document.createElement('nav');
+    document.createElement('aside');
+    document.createElement('section');
+    document.createElement('article');
+  </script>
+  
+</head>
+
+<body>
+
+  <header>
+  
+  <h2 id="newBlood">New Artist Application Form</h2> 
+     
+  <h2 id="comeHere">
+   For Use by Artists Wishing to Join the Arte Del Mundo Family of Artists
+  </h2>
+  
+  <hr />
+  
+  </header>
+  
+  <section>
+  
+  <article id="howToDoIt">
+  
+  <p>
+  Provided below is a form. If you would like to begin selling your products via
+  the Arte Del Mundo website then fill out the form. Only crafts that you have 
+  personally made will be sold via this website. The information that you provide
+  will be used by the staff to help build a Web page about you! If confused 
+  about an error message or to avoid one scroll the mouse over the left hand side
+  of the form. Some words will provide additional instructions. After you finish
+  the form and submit it a staff member will contact you to discuss the data you 
+  provided. You will then be given an artistID number and a password. Wait to 
+  receive this before sending in data regarding the specifics of any of your products. 
+  </p>
+  
+  </article>
+  
+  <article id="getToKnow">
+    
+    <form name="form01" id="form01" action="http://itins3.madisoncollege.edu/echo.php"
+          method="post" 
+          onSubmit="return validateForm();" >
+    
+      <label for="firstName" title="First name must be longer than 2 characters" 
+       class="getInfo">Artist Actual First Name: </label>
+      <input class="theirInput" type="text"
+       name="firstName"
+       id="firstName"
+       placeholder="First Name"
+       maxlength="20" />
+      
+      <br /> 
+    
+      <label for="lastName" title="Last name must be longer than 2 characters"
+       class="getInfo">Artist Actual Last Name: </label>
+      <input class="theirInput" type="text"
+       name="lastName"
+       id="lastName"
+       placeholder="Last Name"
+       maxlength="25"  />
+
+      <br />
+      
+      <label for="streetAddress" class="getInfo">Street Address: </label>
+      <input class="theirInput" type="text"
+       name="streetAddress"
+       id="streetAddress"
+       placeholder="Street Address"
+       maxlength="35" />
+      
+      <br /> 
+      
+      <label for="artistCity" class="getInfo">City: </label>
+      <input class="theirInput" type="text"
+       name="artistCity"
+       id="artistCity"
+       placeholder="City"
+       maxlength="20" />
+
+      <br />
+      
+      <label for="artistState" class="getInfo">State/Province/Region: </label>
+      <input class="theirInput" type="text"
+       name="artistState"
+       id="artistState"
+       placeholder="State/Province/Region"
+       maxlength="20" />
+
+      <br />
+      
+      <label for="artistZip" class="getInfo">Zip or Mail Code: </label>
+      <input class="theirInput" type="text"
+       name="artistZip"
+       id="artistZip"
+       placeholder="Zip Code"
+       maxlength="15" />
+
+      <br />
+            
+      <label for="telephoneNumber" class="getInfo">Local Telephone # : </label>
+      <input class="theirInput" type="text"
+       name="telephoneNumber"
+       id="telephoneNumber"
+       placeholder="Telephone Number"
+       maxlength="15" />
+
+      <br />
+      
+      <label for="emailAddress" class="getInfo">Email Address: </label>
+      <input class="theirInput" type="text"
+       name="emailAddress"
+       id="emailAddress"
+       placeholder="Email Address"
+       maxlength="40" />
+
+      <br />
+                       
+      <label for="crackTheCode" title="Password must be longer than 5 characters"
+       class="getInfo">Password: </label>
+      <input class="theirInput" type="password"
+       name="crackTheCode"
+       id="crackTheCode"
+       placeholder="Password"
+       maxlength="15" />
+       
+      <br />
+       
+      <label for="makeSure" class="getInfo">Password Confirm Repeat: </label>
+      <input class="theirInput" type="password"
+       name="makeSure"
+       id="makeSure"
+       placeholder="Confirm Password"
+       maxlength="15" />
+       
+       <br />
+       
+       <label for="whatCountry" title="Must select both a country and a gender"
+        class="getInfo">Country: </label>
+       <select name="whatCountry" type="option"
+               id="whatCountry">\
+        <option value="0000" selected="selected">Click here to select a country</option>       
+        <option value="0100">United States</option>
+        <option value="0110">China</option>
+        <option value="0120">India</option>
+        <option value="0130">Indonesia</option>
+        <option value="0140">Pakistan</option>
+        <option value="0150">Russia</option>
+        <option value="0160">Ethiopia</option>
+        <option value="0170">Madagascar</option>
+        <option value="0180">Brazil</option>
+        <option value="0190">Turkey</option>
+        <option value="0200">Rwanda</option>
+        <option value="0210">Japan</option>
+        <option value="0220">Bulgaria</option>
+        <option value="0230">Macedonia</option>
+        <option value="0240">The Philippines</option>
+      </select>
+      
+      <br />
+      
+      <label for="whatsTheGender" title="Must select both a country and a gender"
+       class="getInfo">Gender Code: </label>
+      <select name="whatsTheGender" type="option"
+               id="whatsTheGender">
+        <option value="0280" selected="selected">Click here to select a gender</option>       
+        <option value="0250">Male</option>
+        <option value="0260">Female</option>
+        <option value="0270">Not answered</option>
+      </select>
+      
+      <br />
+       
+      <label for="areYouIn" class="getInfo">Discount for Quantity?: </label>
+      <input class="yesNo" type="radio"
+           name="radio1"
+           id="firstChoice" 
+           value="0001"/>
+      <label for="yes">Yes</label>
+      <span class="spacer01"></span> 
+      
+      <input type="radio"
+           name="radio1"
+           id="secondChoice" 
+           value="0002"
+           checked="checked" />
+      <label for="no">No</label>
+      <span class="spacer01"></span> 
+      
+      <br />
+      
+      <label for="secretIdentity" class="getInfo">Work Under Professional Name?: </label>
+      <input class="yesNo" type="radio"
+           name="radio2"
+           id="firstOption" 
+           value="0003"/>
+      <label for="yes">Yes</label>
+      <span class="spacer01"></span> 
+      
+      <input type="radio"
+           name="radio2"
+           id="secondOption" 
+           value="0004"
+           checked="checked" />
+      <label for="no">No</label>
+      <span class="spacer01"></span> 
+      
+      <br />
+      
+      <label for="signTheDot" class="getInfo">Agree to sell only own work?: </label>
+      <input class="yesNo" type="radio"
+           name="radio3"
+           id="youAgree" 
+           value="0005"/>
+      <label for="yes">Yes</label>
+      <span class="spacer01"></span> 
+      
+      <input type="radio"
+           name="radio3"
+           id="doNotAgree" 
+           value="0006"/>
+      <label for="no">No</label>
+      <span class="spacer01"></span> 
+      
+      <br />
+      
+      <label for="whatDoYouDo" class="getInfo">Media in which artist works: </label>
+      <input type="checkbox"
+           name="check1"
+           id="whatDoYouDo" 
+           value="0010"/>
+      <label for="firstType" class="rightSize">Ceramic</label>
+      <span class="spacer01"></span> 
+       
+      <input type="checkbox"
+           name="check2"
+           id="whatDoYouDo" 
+           value="0011"/>
+      <label for="secondType" class="rightSize">Fabric</label>
+      <span class="spacer01"></span>
+      
+      <input type="checkbox"
+           name="check3"
+           id="whatDoYouDo" 
+           value="0012"/>
+      <label for="thirdType" class="rightSize">Metal</label>
+      <span class="spacer01"></span>
+      
+      <input type="checkbox"
+           name="check4"
+           id="whatDoYouDo" 
+           value="0013"/>
+      <label for="fourthType" class="rightSize">Paint</label>
+      <span class="spacer01"></span>
+      
+      <input type="checkbox"
+           name="check5"
+           id="whatDoYouDo" 
+           value="0014"/>
+      <label for="fifthType" class="rightSize">Wood</label>
+      <span class="spacer01"></span>
+      
+      <input type="checkbox"
+           name="check6"
+           id="whatDoYouDo" 
+           value="0015"/>
+      <label for="sixthType" class="rightSize">Plastic</label>
+      <span class="spacer01"></span>
+      
+      <input type="checkbox"
+           name="check7"
+           id="whatDoYouDo" 
+           value="0016"/>
+      <label for="seventhType" class="rightSize">Paper</label>
+      <span class="spacer01"></span>
+      
+      <input type="checkbox"
+           name="check8"
+           id="whatDoYouDo" 
+           value="0018"/>
+      <label for="eighthType" class="rightSize">Stone</label>
+      <span class="spacer01"></span>
+      
+      <input type="checkbox"
+           name="check9"
+           id="whatDoYouDo" 
+           value="0019"/>
+      <label for="ninthType" class="rightSize">Glass</label>
+      <span class="spacer01"></span>
+      
+      <input type="checkbox"
+           name="check10"
+           id="whatDoYouDo" 
+           value="0020"/>
+      <label for="tenthType" class="rightSize">Other</label>
+      <span class="spacer01"></span>
+      
+      <br />
+      
+      <br />
+            
+      <label for="lifeStory" class="getInfo">Brief Artist Biography: </label>
+      <textarea name="lifeStory" class="getInfo"
+                id="lifeStory"
+                placeholder="Tell us about yourself"
+                maxlength="1000"  
+                ></textarea>
+
+      <br /> 
+      
+      <br />
+  
+      <p id="controlButtons">
+      
+      <input type="submit" 
+              value="Submit My Comment" 
+              title="Send my comment now" />
+              
+      <input type="reset"  
+             value="Reset Form - DO NOT SEND" 
+             title="Don't send my comment yet" />
+      
+      <input type="button"
+           value="Home Page" 
+           onClick="window.location.href='index.html'" />       
+                         
+      </p>
+        
+      </form>
+      
+      <br />
+                  
+  </section>
+    
+  <footer>
+  <p id="atEnd">Revised: 12/6/2014</p>
+  </footer>
+
+</body>
+</html>

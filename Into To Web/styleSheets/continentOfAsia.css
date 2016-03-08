@@ -1,0 +1,73 @@
+/*  
+	Sean Fiscus 
+	09/08/14
+*/
+
+header, footer, nav, aside, section, article  {
+display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1em 1em 1em;
+	background-color: ivory;
+	background-image: url('../images/asiaBackground4Resize45.jpg');
+		background-repeat: no-repeat;
+	color: white;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: white;
+}
+
+p#getThereAddress {
+	font-family: Georgia;
+	text-align: center;
+	margin-left: 2em;
+}
+
+h2#thisIsAsia {
+    font-size: 3em;
+	text-align: center;
+	text-shadow: black 2px 3px 4px;
+	background-color: green;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: white; 
+}
+
+h3#whereAreThey {
+    text-align: center;
+    font-size: 28px;
+    text-shadow: black 2px 3px 4px;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    text-align: right;
+}
+
+title {
+    background-color: white;
+}
+
+article#whereToLook{
+    width: 30em;
+    margin: 0 auto;
+    padding: 1em 1em 1em 1em;
+}
+
+img#howToSearch {
+    border: .5em ridge #005502;
+    box-shadow: black 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;    
+}
+
+nav#goBack {
+    text-align: center;
+    word-spacing: 3em;
+}

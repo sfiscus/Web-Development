@@ -1,0 +1,70 @@
+/*  
+	Sean Fiscus 
+	09/08/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1em 1em 1em;
+	background-color: #69D2E7;
+	color: white;
+	background-image: url('../images/theWorld1Resize150.jpg');
+		background-repeat: no-repeat;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: white;
+}
+
+h2#artistHunt {
+    font-size: 3em;
+	text-align: center;
+	text-shadow: black 2px 3px 4px;
+	background-color: #484848;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: white; 
+}
+
+h3#whereAreThey {
+    text-align: center;
+    font-size: 28px;
+    text-shadow: grey 2px 3px 4px;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    text-align: right;
+    font-size: 14px;
+}
+
+title {
+    background-color: white;
+}
+
+article#whereToLook{
+    width: 45em;
+    padding: 1em 1em 1em 1em;
+    float: center;
+    margin-left: 28em;
+}
+
+img#howToSearch {
+    border: .5em ridge black;
+    box-shadow: white 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;
+}
+
+nav#getBack {
+    text-align: center;
+    margin-top: 2em
+}
+
+

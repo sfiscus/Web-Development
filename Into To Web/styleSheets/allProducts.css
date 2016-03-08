@@ -1,0 +1,115 @@
+/*  
+	Sean Fiscus 
+	11/14/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1em 1em 1em;
+	background-color: #434E3C;
+	color: white;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: #3D2117;
+}
+
+p#firsOff {
+	text-shadow: black 2px 3px 4px;
+	font-family: Georgia;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 0em 2em 1em 2em;
+}
+
+h2#thisIsIt {
+    font-size: 3em;
+	text-align: center;
+	text-shadow: black 2px 3px 4px;
+	background-color: #70AB8F;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: white; 
+}
+
+h2#whatToBuy {
+    text-align: center;
+    font-size: 36px;
+    text-shadow: black 2px 3px 4px;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    text-align: right;
+    font-size: 14px;
+}
+
+table.makeItPretty {
+    border: .2em ridge white;
+    background-color: #70AB8F;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: black 2px 3px 4px;
+}
+
+td.makeALine {
+    border: .2em ridge white;
+    width: 50%;
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 3px 4px;
+}
+
+td.makeALine a:link {
+    color: white;
+    text-decoration: none;
+}
+
+td.makeALine a:visited {
+    color: white;	
+}
+
+td.makeALine a:hover {
+    color: orange;
+    text-shadow: black 2px 3px 4px;
+}
+
+img#goldenVase {
+    width: 10em;
+    border: .2em ridge white;
+}
+
+img#warmQuilt {
+    width: 10em; 
+    border: .2em ridge white;
+}
+
+img#creepyMasks {
+    width: 10em;
+    border: .2em ridge white;
+}
+
+img#waterJugs {
+    width: 10em;
+    border: .2em ridge white;
+}
+
+title {
+    background-color: white;
+}
+
+nav {
+    text-align: center;	
+}
+
+
+
+

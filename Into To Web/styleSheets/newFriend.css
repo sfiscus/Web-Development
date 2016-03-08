@@ -1,0 +1,143 @@
+/*  
+	Sean Fiscus 
+	09/08/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 2em 1em 2em;
+	background-color: #C1D3C8;
+	color: #00254A;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: #00254A;
+}
+
+p#beginnings {
+	text-shadow: white 2px 3px 4px;
+	clear: both;
+	font-family: Georgia;
+	text-align: center;
+	font-size: 22px;
+	color: #00254A;
+}
+
+h2#freshFace {
+    font-size: 3em;
+	text-align: center;
+	text-shadow: white 2px 3px 4px;
+	background-color: #DFD6AE;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: #00254A; 
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    text-align: right;
+    font-size: 18px;
+}
+
+title {
+    background-color: white;
+}
+
+article#getToKnow {
+    width: 35em;
+    padding: 0em 0em 1.5em 0em;
+    margin: 0 auto;
+}
+
+h2#becomeFriend {
+    text-align: center;
+    font-size: 20px;
+    text-shadow: white 1px 2px 3px;
+    padding: .5em 1em 1em 1em;
+}
+
+form {
+    background-color: #DFD6AE;
+    border: 5px ridge #00254A;
+    padding: 1em 0.5em 0em 2em;
+    box-shadow: black 3px 4px 5px;
+    text-shadow: white 3px 4px 5px;
+    width: 30.5em;
+}
+
+label.getInfo {
+    color: #00254A;
+    float: left;
+    width: 270px;    
+}
+
+input.theirInput {
+    border: .2em ridge #00254A;
+    box-shadow: grey 3px 4px 5px;
+    font-family: Georgia;
+    width: 15em;
+    text-align: center;
+}
+
+textarea#anythingElse {
+    width: 15.3em;  
+    height: 3em;
+    border: .2em ridge #00254A;
+    text-align: center;
+}
+
+select#whatCountry {
+    box-shadow: grey 3px 4px 5px;		
+}
+
+textarea#theirWords {
+    border: .4em ridge #00254A;
+    box-shadow: grey 3px 4px 5px;
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-bottom: 1em;
+    height: 7em;
+    width: 30em;
+    text-align: center;
+}
+
+p#controlButtons input {
+    background-color: #C1D3C8;
+    color: #00254A;
+    border: .2em ridge #00254A;
+    padding: .2em;
+    font-weight: 900;
+    font-family: Georgia;
+}
+
+p#controlButtons {
+    text-align: center;
+    word-spacing: .5em;
+}
+
+p#controlButtons input:hover {
+    box-shadow: grey 3px 4px 5px;   
+}
+
+nav#friendForm a:link{
+       color: #00254A;
+}
+
+nav#friendForm a:hover{
+       color: #855E42;
+}
+
+nav {
+    text-align: center;    
+}
+
+span.spacer01 {
+      display: inline-block;
+  }

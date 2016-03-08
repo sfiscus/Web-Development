@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--  Author:  Sean Fiscus
+        Date:    11/12/2014   
+  -->
+  <title>Form to Add a New Product</title>
+  <meta charset="UTF-8"  />
+  <script src="../javaScriptFiles/newProduct.js"></script>
+  <link href="../styleSheets/newProduct.css"  rel="stylesheet"  type="text/css"  />
+  <script>
+    document.createElement('header');
+    document.createElement('footer');
+    document.createElement('nav');
+    document.createElement('aside');
+    document.createElement('section');
+    document.createElement('article');
+  </script>
+  
+</head>
+
+<body>
+
+  <header>
+  
+  <h2 id="productFormHeading">New Product Notification Form</h2> 
+  
+  <h2 id="specialUse">For Use by Arte Del Mundo Artists Only</h2>
+  
+  <hr />
+  
+  </header>
+
+  <section>
+  
+  <article id="formInstruction"> 
+  
+  <p>
+    Welcome to the page! Below is a form. Fill out the form if you wish to begin
+    selling a new type of product via this website. Please be aware that this is
+    a different option from any other form previously. The information gathered
+    from this form will be used by the staff to help build an informational page
+    about the new product for this website. This form will only be specifically 
+    used by artists affiliated with Arte Del Mundo. If you aren't affiliated 
+    with Arte Del Mundo no problem our <a href="newArtist.html">New Artist form</a>
+    is quick and easy to fill out. You will have to wait to be provided with 
+    your artist ID number and password before notifying us regarding the specifics
+    of any product. 
+    Thank you
+  </p>
+  
+  </article>  
+  
+  <article id="getToKnow">
+    
+    <form name="form01" action="http://itins3.madisoncollege.edu/echo.php"
+          method="post" 
+          onSubmit="return validateForm();" >
+
+      <label for="artistId" title="Use only numbers and must be at least 8 characters"
+      class="getInfo">Artist Id Number: </label>
+      <input class="theirInput" type="text"
+       name="artistId"
+       id="artistId"
+       placeholder="Artist Id Number"
+       maxlength="8" />
+      
+      <br /> 
+      
+      <label for="crackTheCode" title="Use any character you wish but must be at least 5 characters"
+      class="getInfo">Artist Password: </label>
+      <input class="theirInput" type="password"
+       name="crackTheCode"
+       id="crackTheCode"
+       placeholder="Password"
+       maxlength="15" />
+       
+      <br />
+    
+     <label for="productPrice" title="Enter the price using only numbers. No dollar sign symbol required."
+     class="getInfo">Product Price: </label>
+     <input class="theirInput" type="text"
+       name="productPrice"
+       id="productPrice"
+       placeholder="Product Price"
+       maxlength="7" />
+
+      <br />
+      
+      <label for="productWeight" title="Enter a number to represent the amount of weight for the product."
+      class="getInfo">Product Weight: </label>
+      <input class="theirInput" type="text"
+       name="productWeight"
+       id="productWeight"
+       placeholder="Product Weight"
+       maxlength="6" />
+      
+      <br /> 
+      
+      <label for="organicPercent" title="Enter a number between 0 and 100 to represent percentage."
+      class="getInfo">Organic Percentage: </label>
+      <input class="theirInput" type="text"
+       name="organicPercent"
+       id="organicPercent"
+       placeholder="Organic Percentage"
+       maxlength="4" />
+       <label for="organicPercent">%</label>
+       
+      <br />
+       
+       <label for="productCategory" class="getInfo">Product Category: </label>
+       <select name="productCategory" type="option"
+               id="productCategory">
+        <option value="0000" selected="selected">Click here to select a product category</option>              
+        <option value="0111">Beadwork</option>
+        <option value="0222">Jewelry</option>
+        <option value="0333">Pottery</option>
+        <option value="0444">Carving</option>
+        <option value="0555">Wood Working</option>
+        <option value="0666">Mosaics</option>
+        <option value="0777">Needle Crafts</option>
+        <option value="0888">Paper</option>
+        <option value="0999">Origami</option>
+        <option value="1010">Paper Mache</option>
+        <option value="1011">Basketry</option>
+        <option value="1012">Woven Fabric</option>
+        <option value="1013">Woven Non-Fabric</option>
+        <option value="1014">Painting</option>
+        <option value="1015">Metal Working</option>
+        <option value="1016">Other</option>
+      </select>
+      
+      <br />
+       
+      <label for="whatsTheWeight" class="getInfo">Weight Unit of Measure: </label>
+      <input class="howMuch" type="radio"
+           name="radio1"
+           id="firstChoice" 
+           value="1111"
+           checked="checked" />
+      <label for="kilograms" class="wordShade">Kilograms</label>
+      <span class="spacer01"></span> 
+      
+      <input type="radio"
+           name="radio1"
+           id="secondChoice" 
+           value="1112" />
+      <label for="ounces" class="wordShade">Ounces</label>
+      <span class="spacer01"></span>
+      
+      <input type="radio"
+           name="radio1"
+           id="thirdChoice" 
+           value="1113" />
+      <label for="pounds" class="wordShade">Pounds</label>
+      <span class="spacer01"></span>
+      
+      <br />
+      
+      <label for="youGotIt" class="getInfo">Is Product Available Now?: </label>
+      <input class="howMuch" type="radio"
+           name="radio2"
+           id="firstOption" 
+           value="1114" />
+      <label for="yes" class="wordShade">Yes</label>
+      <span class="spacer01"></span> 
+      
+      <input type="radio"
+           name="radio2"
+           id="secondOption" 
+           value="1115"
+           checked="checked" />
+      <label for="no" class="wordShade">No</label>
+      <span class="spacer01"></span> 
+      
+      <br />
+           
+      <label for="productDescription" class="getInfo">Product Description: </label>
+      <textarea name="productDescription" class="yourOpinion"
+                id="productDescription"
+                placeholder="Tell us about your product"
+                maxlength="1000" 
+                ></textarea>
+      
+      <br />
+  
+      <p id="controlButtons">
+      
+      <input type="submit" 
+              value="Submit My Comment" 
+              title="Send my comment now" />
+              
+      <input type="reset"  
+             value="Reset Form - DO NOT SEND" 
+             title="Don't send my comment yet" />
+      
+      <input type="button"
+           value="Home Page" 
+           onClick="window.location.href='index.html'" />       
+                         
+      </p>
+        
+      </form>
+  
+  </section>
+  
+  <footer>
+  <p id="atEnd">Revised: 12/6/2014</p>
+  </footer>
+
+</body>
+</html>
+

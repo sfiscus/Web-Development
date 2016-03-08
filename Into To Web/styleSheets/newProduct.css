@@ -1,0 +1,142 @@
+/*  
+	Sean Fiscus 
+	11/12/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1em 1em 1em;
+	background-image: url('../images/woodBackground2.jpg');
+	color: white;
+	font-family: Georgia;
+	font-size: 18px;
+}
+    
+article#formInstruction {
+    text-align: center;
+    text-shadow: black 2px 3px 4px;
+    font-size: 22px;
+}
+
+article#formInstruction a:link {
+    color: lightblue;   
+}
+
+article#formInstruction a:visited {
+    color: lightblue;   
+}
+
+article#formInstruction a:hover {
+    color: #BA6222;   
+}
+
+
+h2#productFormHeading {
+	font-size: 3em;
+	text-align: center;
+	text-shadow: black 2px 3px 4px;
+	background-color: #BA6222;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: white;
+}
+
+h2#specialUse {
+    text-align: center;
+    text-shadow: black 2px 3px 4px;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    text-align: right;
+    font-size: 18px;
+}
+
+title {
+    background-color: white;
+}
+
+form {
+    background-color: #BA6222;
+    border: 5px ridge #003333;
+    padding: 1em 0em 0em 2em;
+    box-shadow: black 3px 4px 5px;
+    width: 55em;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+}
+
+label.getInfo {
+    color: white;
+    text-shadow: black 2px 3px 4px;
+    float: left;
+    width: 270px;    
+}
+
+label.wordShade {
+    text-shadow: black 2px 3px 4px;		
+}
+
+input.theirInput {
+    border: .2em ridge #003333;
+    box-shadow: black 3px 4px 5px;
+    font-family: Georgia;
+    margin-left: 15em;
+    width: 25em;
+    text-align: center;
+}
+
+select#productCategory {
+    box-shadow: black 3px 4px 5px;
+    margin-left: 15em;
+    margin-bottom: 0.5em;
+    width: 25em;
+    text-align: center;
+}
+
+input.howMuch {
+    margin-left: 17em;
+}
+
+textarea#productDescription {
+    border: .4em ridge #003333;
+    box-shadow: black 3px 4px 5px;
+    height: 7em;
+    width: 25em;
+    margin-left: 15em;
+    margin-top: .5em;
+    text-align: center;
+}
+
+p#controlButtons input {
+    background-color: white;
+    text-shadow: grey 1px 2px 3px;
+    color: black;
+    border: .2em ridge #003333;
+    padding: .2em;
+    font-weight: 900;
+    font-family: Georgia;
+}
+
+p#controlButtons {
+    text-align: center;
+    word-spacing: .5em;
+}
+
+p#controlButtons input:hover {
+    box-shadow: black 3px 4px 5px;   
+}
+
+nav {
+    text-align: center; 
+}
+
+span.spacer01 {
+    display: inline-block;
+}

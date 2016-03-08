@@ -1,0 +1,133 @@
+/*  
+	Sean Fiscus 
+	10/13/2014
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1.5em 1em 1.5em;
+	background-color: #6D748C;
+	color: #003366;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: white;
+}
+
+p#offOurChest {
+	font-family: Georgia;
+	color: #003366;
+}
+
+h2#questions {
+    font-size: 3em;
+	text-align: center;
+	text-shadow: black 2px 3px 4px;
+	background-color: #003366;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: white; 
+}
+
+h2#whatToAsk {
+    text-align: left;
+    font-size: 28px;
+    text-shadow: black 2px 3px 4px;
+    color: white;
+}
+
+h3#construction {
+    text-align: left;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    text-align: right;
+    font-size: 14px;
+}
+
+title {
+    background-color: white;
+}
+
+article#whereToTurn{
+    width: 20em;
+    float: right;
+    margin-right: 2em;
+    margin-left: 1em;
+    padding: 0em .5em 1.5em .5em;
+}
+
+img#howToFind {
+    border: .5em ridge #003366;
+    box-shadow: black 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;
+}
+
+article#artistQuestion  {
+    background-color: #99CCFF;
+    border: 2px solid #003366;
+    padding: .5em 1em 1.5em 2em;
+    width: 25em;
+    float: right;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 3em;
+    box-shadow: black 3px 4px 5px;
+    color: #003366;
+}
+
+h2#questionBox  {
+    font-size: 28px;
+    text-align: center;
+    text-shadow: white 1px 2px 3px;
+    color: blue;
+}
+ 
+h3#packageInfo  {
+    font-size: 28px;
+    text-align: left;
+    text-shadow: black 1px 2px 3px;
+    color: white;
+    margin-top: 3em;
+}
+
+h3#makeYourOwn  {
+    font-size: 28px;
+    text-align: left;
+    text-shadow: black 1px 2px 3px;
+    color: white;
+    margin-top: 3em;    
+}
+
+article#futureStuff {
+    background-color: #99CCFF;
+    border: 4px outset #003366;
+    padding: .5em 1em .5em 1em;
+    margin-right: 3em;  
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    box-shadow: black 3px 4px 5px;
+    color: #003366;
+}
+
+h2#mysteryBox  {
+    font-size: 28px;
+    text-align: left;
+    text-shadow: white 1px 2px 3px;
+    color: blue; 
+}
+
+nav#getBack {
+    text-align: center; 
+    word-spacing: 5em;
+    font-size: 20px;
+}

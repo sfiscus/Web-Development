@@ -1,0 +1,159 @@
+/*  
+	Sean Fiscus 
+	10/13/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1em 1em 1em;
+	background-color: #855E42;
+	color: white;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: white;
+}
+    
+nav#myLinks {
+    text-align: center;
+    float: top;
+    font-size: 22px;
+}
+
+nav#myLinks a:hover {
+    color: lightgreen;
+    text-shadow: black 2px 3px 4px;
+}
+
+nav.linksToGoTo a:visited {
+    color: black;
+}
+
+a.linksToGoTo {
+    color: black;		
+}
+
+h2#pageHeading {
+	font-size: 3em;
+	text-align: center;
+	text-shadow: #BC8F8F 2px 3px 4px;
+	background-color: #F5DEB3;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: #5C4033;
+}
+
+h3#adventure {
+    text-align: center;
+    text-shadow: black 2px 3px 4px;
+}
+
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    text-align: right;
+}
+
+title {
+    background-color: white;
+}
+
+article#culture {
+    width: 30em;
+    float: left;
+    margin-right: 2em;
+    padding: .5em .5em 1.5em .5em;
+}
+
+img#colorfulQuilts {
+    border: .5em ridge #FAFAD2;
+    box-shadow: black 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;
+}
+
+article#praise {
+    background-color: #FAFAD2;
+    border: .5em ridge #FFE4B5;
+    padding: .5em 1em 1.5em 1em;
+    width: 25em;
+    float: right;
+    margin-left: 2em;
+    border-radius: 25px;
+    box-shadow: black 3px 4px 5px;
+    color: #5C4033;
+}
+
+p#peopleComment {
+    text-align: center;
+}
+
+h3#box {
+    text-align: center;
+    text-shadow: grey 1px 2px 3px;
+}
+
+p {
+    margin-bottom: .5em;
+}
+
+article#salutations{
+}
+
+h3#greeting {
+    text-align: center;
+    font-size: 24px;
+    text-shadow: black 1px 2px 3px;
+    padding: 1em 1em 0em 1em;
+}
+
+h3#introduction {
+    text-align: center;
+    font-size: 24px;
+    text-shadow: black 1px 2px 3px;
+    padding: 1em 1em 0em 1em;
+}
+
+ul#firstBullet {
+    margin-left: 2em;    
+}
+
+ul#secondBullet {
+    margin-left: 2em;
+}
+
+article#invitation {
+}
+
+h3#togetherness {
+    text-align: center;
+    font-size: 24px;
+    clear: both;
+    text-shadow: black 3px 4px 5px;
+    padding: 1em 0em 0em 0em;
+}
+
+nav#memberFriend {
+    text-align: center; 
+    padding: 0em 0em 1em 0em;
+    font-size: 22px; 
+}
+
+nav#memberFriend a:hover  {
+    color:lightgreen;
+    text-shadow: black 2px 3px 4px;
+}
+
+
+
+
+
+
+

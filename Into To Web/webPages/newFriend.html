@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--  Author:  Sean Fiscus
+        Date:    11/15/2014   
+  -->
+  <title>Form to Become a Friend of Arte Del Mundo</title>
+  <meta charset="UTF-8"  />
+  <link href="../styleSheets/newFriend.css"  rel="stylesheet"  type="text/css"  />
+  <script>
+    document.createElement('header');
+    document.createElement('footer');
+    document.createElement('nav');
+    document.createElement('aside');
+    document.createElement('section');
+    document.createElement('article');
+  </script>
+  
+</head>
+
+<body>
+
+    <header>
+    <h2 id="freshFace">New Friend Form</h2> 
+  
+    <h2 id="becomeFriend">
+    It's Easy to Become a Friend.
+    </h2>   
+ 
+    <nav id="friendForm">
+      <a href="friendsInfo.html">Click Here for information about the Friend group!</a>
+    </nav>
+    
+    <hr />
+  
+    </header>
+    
+    <section>
+  
+    <article>
+    
+    <p id="beginnings">
+      We would love to have you become a friend of Arte Del Mundo in fact anyone
+      can become a friend. The information provided in the form will never be 
+      shared in any way outside the organization so you can have peace of mind. 
+      We are so happy that you have decided to join us as a friend. Unfortunately
+      we are unable to accept credit card payments at this time but when it is 
+      fixed you will be first to know!
+    </p>
+    
+    </article>
+    
+    <article id="getToKnow">
+    
+    <form name="form01" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+      <label for="firstName" class="getInfo">Friend First Name: </label>
+      <input class="theirInput" type="text"
+       name="firstName"
+       id="firstName"
+       placeholder="First Name"
+       maxlength="20"  />
+      
+      <br /> 
+    
+     <label for="lastName" class="getInfo">Friend Last Name: </label>
+     <input class="theirInput" type="text"
+       name="lastName"
+       id="lastName"
+       placeholder="Last Name"
+       maxlength="25"  />
+
+      <br />
+      
+      <label for="streetAddress" class="getInfo">Friend Street Address: </label>
+      <input class="theirInput" type="text"
+       name="streetAddress"
+       id="streetAddress"
+       placeholder="Street Address"
+       maxlength="35"  />
+      
+      <br /> 
+      
+      <label for="friendCity" class="getInfo">Friend City: </label>
+      <input class="theirInput" type="text"
+       name="friendCity"
+       id="friendCity"
+       placeholder="City"
+       maxlength="20"  />
+
+      <br />
+      
+      <label for="friendState" class="getInfo">Friend State/Province/Region: </label>
+      <input class="theirInput" type="text"
+       name="friendState"
+       id="friendState"
+       placeholder="State/Province/Region"
+       maxlength="20"  />
+
+      <br />
+      
+      <label for="friendZip" class="getInfo">Friend Zip or Mail Code: </label>
+      <input class="theirInput" type="text"
+       name="friendZip"
+       id="friendZip"
+       placeholder="Zip Code"
+       maxlength="15"  />
+
+      <br />
+            
+      <label for="telephoneNumber" class="getInfo">Friend Local Telephone # : </label>
+      <input class="theirInput" type="text"
+       name="telephoneNumber"
+       id="telephoneNumber"
+       placeholder="Telephone Number"
+       maxlength="15"  />
+
+      <br />
+      
+      <label for="emailAddress" class="getInfo">Friend Email Address: </label>
+      <input class="theirInput" type="text"
+       name="emailAddress"
+       id="emailAddress"
+       placeholder="Email Address"
+       maxlength="40"  />
+
+      <br />
+                  
+      <label for="whatCountry" class="getInfo">Friend Country: </label>
+      <select id="whatCountry"
+              name="country">
+        <option value="0111">United States</option>
+        <option value="0112">China</option>
+        <option value="0113">India</option>
+        <option value="0114">Indonesia</option>
+        <option value="0115">Pakistan</option>
+        <option value="0116">Russia</option>
+      	<option value="0117">Ethiopia</option>
+      	<option value="0118">Madagascar</option>
+      	<option value="0119">Brazil</option>
+      	<option value="0120">Turkey</option>
+      	<option value="0121">Rwanda</option>
+      	<option value="0122">Japan</option>
+      	<option value="0123">Bulgaria</option>
+      	<option value="0124">Macedonia</option>
+      	<option value="0125">The Philippines</option>
+      </select>
+      
+      <br />
+      
+      <label for="howToPay" class="getInfo">Payment Info: </label>
+      <select id="whatCountry"
+              name="payment">
+        <option value="0126">Bill Me</option>
+        <option value="0127">Pay now by check</option>
+        <option value="0128">Pay now by money order</option>
+      </select>
+      
+      <br />
+           
+      <label for="areYouIn" class="getInfo">Interested in Local Group?: </label>
+      <input type="radio"
+           name="r1"
+           id="firstChoice" 
+           value="0011"/>
+      <label for="yes">Yes</label>
+      <span class="spacer01"></span> 
+      
+      <input type="radio"
+           name="r1"
+           id="secondChoice" 
+           value="0012"
+           checked="checked" />
+      <label for="no">No</label>
+      <span class="spacer01"></span> 
+      
+      <br />
+      
+      <label for="anythingElse" class="getInfo">Anything Else To Share: </label>
+      <textarea name="anythingElse" class="getInfo"
+                id="anythingElse"
+                placeholder="Share Whatever You Want"
+                maxlength="1000"  
+                ></textarea>
+
+      <br />
+
+      <p id="controlButtons">
+      
+      <input type="submit" 
+              value="Submit My Comment" 
+              title="Send my comment now"/>
+              
+      <input type="reset"  
+             value="Reset Form - DO NOT SEND" 
+             title="Don't send my comment yet"/>
+      
+      <input type="button"
+            value="Home Page" 
+            onClick="window.location.href='index.html'" />        
+             
+      </p>
+              
+      </form>
+                
+  </article>
+  
+  </section>
+    
+  <footer>
+  <p id="atEnd">Revised: 11/15/2014</p>
+  </footer>
+
+</body>
+</html>
+

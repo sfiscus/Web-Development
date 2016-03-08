@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--  Author:  Sean Fiscus
+        Date:    12/9/2014   
+  -->
+  <title>Customer Comments</title>
+  <meta charset="UTF-8"  />
+  <link href="../styleSheets/customerComment.css"  rel="stylesheet"  type="text/css"  />
+  <script>
+    document.createElement('header');
+    document.createElement('footer');
+    document.createElement('nav');
+    document.createElement('aside');
+    document.createElement('section');
+    document.createElement('article');
+  </script>
+</head>
+
+<body>
+
+  <header>
+  <h2 id="talkAbout">Comments</h2> 
+  </header>  
+  
+  <hr />
+   
+    <section>
+     
+    <h2 id="downToIt">
+    Comment on your experience 
+    </h2>
+  
+    <h3 id="comeComment">Feel free to share your experience with others. 
+    We love to hear from you and from your comments we are able to learn how to 
+    better improve this site. In order to leave us a comment just type your full 
+    name in the box below and then type your comment in the box below that and 
+    hit the submit button its as easy as that. Just remember that we don't have 
+    spellchecker so make sure you double check your spelling before submitting
+    Thanks!
+    </h3>
+    
+     <article id="keyName">
+     
+     <form name="form01" action="http://itins3.madisoncollege.edu/echo.php" 
+           method="post" 
+           onSubmit="return validateForm();" >
+
+     <label id="getName" title="The field must contain at least 4 characters long with the first letter being a letter in the alphabet."
+     >Tell us your name: </label>
+      <input id="theirWords" type="text"
+       name="getName"
+       id="getName"
+       placeholder="last, first"
+       maxlength="30"  />
+
+      <br />
+
+      <textarea name="comment" title="The field must contain at least 10 characters and not be left blank." 
+                placeholder="Key in your comment here" 
+                id="theirWords"
+                ></textarea>
+      <br />
+  
+      <p id="controlButtons">
+      
+      <input type="button" 
+            value="Click here if you would like a staff person to contact you." 
+            onClick="displayTextBox();"  />
+                        
+      <span id="destinationSpan"></span>
+     
+      <span id="secondSpan"></span>
+      
+      <input type="submit" 
+              value="Submit My Comment" 
+              title="Send my comment now"/>
+              
+      <input type="reset"  
+             value="Reset Form - DO NOT SEND" 
+             title="Don't send my comment yet"/>
+    
+      </p>
+      
+      <br />
+      
+      <script>
+
+      function validateForm() {
+      	      
+      var nameValidation;
+      
+      nameValidation = /^[A-Za-z]/;
+       
+      if (document.form01.getName.value.match(nameValidation)) {
+      	 document.form01.getName.style.backgroundColor = "";     
+     } else {
+       	alert("Your first letter must be part of the alphabet. Please try again");
+        document.form01.getName.select();
+        document.form01.getName.style.backgroundColor = "#F2E0F7";     
+     }
+      
+      if (document.form01.getName.value.length <= 3) {
+        alert("What you entered was too short--must be at least 4 characters long. Please try again");
+        document.form01.getName.select();
+        document.form01.getName.style.backgroundColor = "#F2E0F7";
+        return false; 
+      } else {
+        document.form01.getName.style.backgroundColor = "";  
+      }
+      
+      if (document.form01.comment.value.length <= 9) {
+        alert("What you entered was too short or you left the field blank--must be at least 10 characters long. Please try again");
+        document.form01.comment.select();
+        document.form01.comment.style.backgroundColor = "#F2E0F7";
+        return false; 
+        
+      } else {
+        document.form01.comment.style.backgroundColor = ""; 
+      }
+ 
+     return true;
+     
+  }
+  
+  function displayTextBox() {
+        var referenceToPhone;
+        var refereneToEmail;
+        
+        referenceToPhone = document.getElementById("destinationSpan");
+        
+        referenceToPhone.innerHTML = "<input type='text' placeholder='Telephone Number' name='telephoneNumber' />";
+        
+        refereneToEmail = document.getElementById("secondSpan");
+        
+        refereneToEmail.innerHTML = "<input type='text' placeholder='Email Address' name='emailAddress' />";
+              
+      }
+ </script>
+      
+      </form>
+      
+       <h3>
+          If you would like to have a screen print of your comment for your
+          records simply use the "PrtScn" button. If the button doesn't produce
+          a window try the keystroke combination [Shift + PrtScn], and then
+          paste the image into a program such as Microsoft Word. Other software
+          that is available is: Snipping Tool and SnagIt.
+         </h3>
+      
+      </article>
+
+      <article id="sayingStuff">
+      <img src="../images/peopleTalking.jpg"
+          alt="talkingFun"
+          id="tableTalk"/>   
+        
+      </article>
+      
+      <article id="moreToSay">
+      <img src="../images/funMeeting1.jpg"
+          alt="computerFun"
+          id="excitingComment"
+      </article>
+      
+     </section>
+   
+  <footer id="renderTime">
+ 
+  <script>
+ 
+    // Define two variables for the program to use
+    var renderedDate;
+    var revisedDate;
+
+         // Assign date and time content to the variables
+
+    renderedDate = new Date();             // assign current date
+    revisedDate  = document.lastModified;  // assign revised date
+
+         // Deliver the variables content to the Web page 
+    document.write("This Web page rendered: " + renderedDate);
+    document.write("<br />");
+    document.write("This Web page revised: " + revisedDate);
+
+    </script>
+    
+  </footer>
+  
+      <nav id="getBack">
+      <a href="index.html"><img src="../images/blu5home.gif" alt="homePage"/></a>
+      </nav>
+
+</body>
+</html>
+

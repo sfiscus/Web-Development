@@ -1,0 +1,140 @@
+/*  
+	Sean Fiscus 
+	11/17/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 2em 1em 2em;
+	background-color: #558C89;
+	color: white;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: #00254A;
+}
+
+h2#newBlood {
+    font-size: 3em;
+	text-align: center;
+	text-shadow: black 2px 3px 4px;
+	background-color: #D9853B;
+	font-family: Monotype Corsiva;
+	color: white; 
+}
+
+h2#comeHere {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    text-shadow: black 1px 2px 3px;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    text-align: right;
+    font-size: 18px;
+}
+
+title {
+    background-color: white;
+}
+
+article#howToDoIt {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 24px;
+    text-shadow: black 2px 3px 4px;
+}
+
+form {
+    background-color: #74AFAD;
+    border: 5px ridge #003333;
+    padding: 1em 0em 0em 2em;
+    box-shadow: black 3px 4px 5px;
+    width: 55em;
+    margin: 0 auto;
+    color: black;
+}
+
+label.getInfo {
+    color: black;
+    float: left;
+    width: 270px;    
+}
+
+input.theirInput {
+    border: .2em ridge #003333;
+    box-shadow: black 3px 4px 5px;
+    font-family: Georgia;
+    margin-left: 15em;
+    width: 25em;
+    text-align: center;
+}
+
+input.yesNo {
+    margin-left: 23em;   
+}
+
+textarea#lifeStory {
+    border: .4em ridge #003333;
+    box-shadow: black 3px 4px 5px;
+    height: 7em;
+    width: 50em;
+    text-align: center;
+}
+
+select#whatCountry {
+    box-shadow: black 3px 4px 5px;
+    margin-left: 15em;
+    width: 25em;
+    text-align: center;
+}
+
+select#whatsTheGender {
+    margin-left: 15em;
+    margin-bottom: .5em;
+    width: 25em;
+    text-align: center;
+    box-shadow: black 2px 3px 4px;   
+
+}
+    
+label.rightSize {
+    font-size: .7em;
+}
+
+p#controlButtons input {
+    background-color: #D9853B;
+    text-shadow: black 1px 2px 3px;
+    color: white;
+    border: .2em ridge #003333;
+    padding: .2em;
+    font-weight: 900;
+    font-family: Georgia;
+}
+
+p#controlButtons {
+    text-align: center;
+    word-spacing: .5em;
+}
+
+p#controlButtons input:hover {
+    box-shadow: black 3px 4px 5px;   
+}
+
+nav {
+    text-align: center; 
+}
+
+span.spacer01 {
+    display: inline-block;
+}
+

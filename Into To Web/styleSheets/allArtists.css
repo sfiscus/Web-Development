@@ -1,0 +1,132 @@
+/*  
+	Sean Fiscus 
+	11/13/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1em 1em 1em;
+	background-color: #6A5A5B;
+	color: #C1D3C8;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: white;
+}
+
+h2#meetAndGreet {
+	font-size: 3em;
+	text-align: center;
+	text-shadow: black 1px 2px 3px;
+	background-color: #C1D3C8;
+	clear: both;
+	font-family: Georgia;
+	color: white;
+}
+
+h2#allInOne{
+    text-align: center;
+    text-shadow: black 2px 3px 4px;
+}
+
+article#welcomeYou {
+    text-align: center;
+    text-shadow: black 2px 3px 4px;
+    font-family: Georgia;
+    font-size: 21px;
+}
+
+table.makeItPretty {
+    border: .2em ridge white;
+    background-color: #C1D3C8;
+    width: 70%;
+    color: #6A5A5B;
+    text-shadow: ghostwhite 2px 3px 4px;
+    margin: 0 auto;
+}
+
+td.makeALine {
+    border: .2em ridge white;
+    width: 30%;
+    text-align: center;
+    text-shadow: grey;
+}
+
+th.makeALine {
+    border: .2em ridge white;
+    width: 30%;
+    text-align: center;
+    text-shadow: grey;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: fuchsia;   
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+img#myMan {
+    width: 10em;
+    border: .2em ridge #6A5A5B; 
+}
+
+img#slickRick {
+    width: 10em;
+    border: .2em ridge #6A5A5B; 
+}
+
+img#greatView {
+    width: 10em;
+    border: .2em ridge #6A5A5B; 
+}
+
+img#whoIsHodor {
+    width: 10em;
+    border: .2em ridge #6A5A5B; 
+}
+
+img#whoIsTriscuit {
+    width: 10em;
+    border: .2em ridge #6A5A5B; 	
+}
+
+img#dontCare {
+    width: 10em;
+    border: .2em ridge #6A5A5B; 
+}
+
+img#whoThatBe {
+    width: 10em;
+    border: .2em ridge #6A5A5B;      
+}
+
+img#whyOhWhy {
+    width: 10em;
+    border: .2em ridge #6A5A5B; 
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    text-align: right;
+    font-size: 14px;
+}
+
+title {
+    background-color: white;
+}
+
+nav#getBack {
+    text-align: center;   
+}

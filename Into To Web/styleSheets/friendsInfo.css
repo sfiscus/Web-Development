@@ -1,0 +1,117 @@
+/*  
+	Sean Fiscus 
+	09/08/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1em 1em 1em;
+    background-image: url('../images/back21.gif');    
+	color: #0000CC;
+	font-family: Georgia;
+	font-size: 18px;
+}
+    
+hr {
+    color: #99CCFF;
+}
+    
+  
+nav#friendForm {
+    text-align: center;
+    float: top;
+    font-size: 16px;
+}
+
+h2#ourNewFriend {
+	font-size: 3em;
+	text-align: center;
+	text-shadow: white 2px 3px 4px;
+	background-color: #99CCFF;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: #0000CC;
+}
+
+h2#beOurFriend{
+    text-align: center;
+    text-shadow: white 2px 3px 4px;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    clear: both;
+    text-align: left;
+}
+
+article#happiness {
+    width: 15em;
+    float: left;
+    margin-right: 2em;
+    padding: .5em .5em 1.5em .5em;
+}
+
+img#findTheJoy {
+    border: .5em ridge #FAFAD2;
+    box-shadow: black 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;
+}
+
+article#intoParagraph {
+    text-align: left;
+    font-size: 20px;
+    text-shadow: white 1px 2px 3px;
+    padding: .5em 1em 1em 1em;
+}
+
+
+article#circleOFLife {
+    width: 21em;
+    float: right;
+    margin-right: 2em;
+    padding: .5em .5em 1.5em .5em;
+}
+
+p#secondParagraph {
+    text-align: left;
+    font-size: 20px;
+    text-shadow: white 1px 2px 3px;
+    padding: 0em 1em 0em 1em;
+}
+
+ul#firstBullet {
+    padding: 0em 5em 0em 16em;
+}
+
+ul#secondBullet {
+    padding: 0em 5em 0em 16em;
+}
+
+ul#thirdBullet {
+    padding: 0em 5em 0em 16em;
+}
+
+article#thirdParagraph {
+    text-align: center;
+}
+
+
+
+img#groupAround {
+    border: .5em ridge #FAFAD2;
+    box-shadow: black 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;
+}
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+/*  
+	Sean Fiscus 
+	09/08/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 0em 1em 2em;
+	background-color: #393939;
+	color: #C7D0D5;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: white;
+}
+
+p#littleBoutMe {
+	font-family: Georgia;
+}
+
+h2#artistName {
+    font-size: 3em;
+	text-align: center;
+	text-shadow: black 2px 3px 4px;
+	background-color: #93B1C6;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: ivory; 
+}
+
+h3#myAchievements {
+    text-align: center;
+    font-size: 28px;
+    text-shadow: black 2px 3px 4px;
+    color: #93B1C6;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    clear: both;
+    margin-left: 90em;
+    font-size: 12px;
+}
+
+title {
+    background-color: white;
+}
+
+article#lookingGood {
+    width: 32em;
+    float: right;
+    padding: 0em 2em 1.5em .5em;
+}
+
+img#itsMe {
+    border: .5em ridge #93B1C6;
+    box-shadow: white 3px 4px 5px;
+    border-radius: 1px;
+    width: 100%;
+}
+
+article#contactME {
+    background-color: #93B1C6;
+    border: 4px outset black;
+    padding: .5em 1em 1.5em 1em;
+    float: center;
+    margin-right: 3em;  
+    margin-top: 3em;
+    box-shadow: white 3px 4px 5px;
+    color: #393939;
+}
+
+h3#myBox {
+    text-align: center;
+}

@@ -1,0 +1,136 @@
+/*  
+	Sean Fiscus 
+	11/14/14
+*/
+
+header, footer, nav, aside, section, article  {
+       display: block;
+}
+
+/*---------------------------------------------*/
+body {
+    padding: 1em 1em 1em 1em;
+	background-color: #3D362D;
+	color: white;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+hr {
+    color: #3D2117;
+}
+
+p#firsOff {
+	text-shadow: black 2px 3px 4px;
+	font-family: Georgia;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 0em 2em 1em 2em;
+}
+
+h2#thisIsIt {
+    font-size: 3em;
+	text-align: center;
+	text-shadow: black 2px 3px 4px;
+	background-color: #665847;
+	clear: both;
+	font-family: Monotype Corsiva;
+	color: white; 
+}
+
+h2#whatToBuy {
+    text-align: center;
+    font-size: 36px;
+    text-shadow: black 2px 3px 4px;
+}
+
+footer {
+    padding: .1em .1em .1em .1em;
+    margin-top: 1em;
+    text-align: right;
+    font-size: 14px;
+}
+
+table.makeItPretty {
+    border: .2em ridge white;
+    background-color: #665847;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: black 2px 3px 4px;
+    border-collapse: collapse;
+}
+
+td#getBigger {
+    width: 100%;
+    border: .2em ridge white;
+    text-align: justify left;
+    color: white;
+    text-shadow: black 2px 3px 4px;
+    padding: 1em 1em 1em 1em;
+
+}
+
+td.makeItSmaller {
+    border: .2em ridge white;
+    width: 30%;
+    height: 2.5em;
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 3px 4px;
+    padding: 1em 1em 1em 1em;
+
+}
+
+td.makeItEvenSmaller {
+    border: .2em ridge white;
+    width: 30%;
+    height: 2.5em;
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 3px 4px;
+    padding: 1em 1em 1em 1em;
+ 
+}
+
+td#makeItLonger {
+    border: .2em ridge white;
+    width: 30%;
+    height: 2.5em;
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 3px 4px;
+    padding: 1em 1em 1em 1em;
+
+}
+
+img#goldenVase {
+    width: 35em;
+    border: .2em ridge white;
+}
+
+a:link {
+    color:white;	
+}
+
+a:visited {
+    color:white;	
+}
+
+a:hover {
+    color: orange;
+    text-shadow: black 2px 3px 4px;
+}
+
+title {
+    background-color: white;
+}
+
+nav {
+    text-align: center;	
+    word-spacing: 2em;
+}
+
+
+
+
