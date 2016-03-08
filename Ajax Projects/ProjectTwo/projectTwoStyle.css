@@ -1,0 +1,61 @@
+label {
+	display: inline-block;
+	text-align: right;
+	margin-bottom: 1em;
+}
+
+#menu {
+	margin-left:2%;
+	margin-top:2%;
+	float:left;
+	width: 50%;
+}
+
+form {
+	width: 600px;
+	padding: 15px;
+	margin-bottom: 5px;
+	border: 1px solid #c6c7cc;
+	border-radius: 5px;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-shadow: 5px 5px 2px #888888;
+	background-color: #FFFFF0;
+	color: black;
+}
+
+footer {
+	position:absolute;
+	top:19em;
+	left:2.1em;
+}
+
+#order {
+	margin-left:2%;
+}
+
+#head {
+	font-weight: bold;
+}
+
+body {
+	background-color: #F0FFF0;
+}
+
+#receipt {
+	float:left;                        
+	text-align:left;
+	margin-left: 10%;	
+}
+
+.receiptItem {
+	border: 1px dotted black;
+	padding: 5px;
+}
+
+#center {
+	text-align: center;
+}
+
+.embolden {
+	font-weight: bold;
+}

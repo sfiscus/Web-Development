@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>Project 1</title>
+	<script src="validateOne.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="projectOneStyle.css" type="text/css" media="screen" title="no title" charset="utf-8"
+
+<header>
+	<h2>Please enter your information in the form below</h2>
+</header>
+
+</head>
+
+<body id="projectBody" onloads=" ">
+
+	<div id="errorMessage">
+	</div>
+
+	<form id="information">
+
+	<div id="nameContainer">
+		<label for="name:" class="userData">Name:</label> <input class="myClass" type="text" name="name" value="" id="name!" placeholder="Name"/>
+	</div>
+	
+	<div id="emailContainer">
+		<label for="email:" class="userData">Email:</label> <input class="myClass" type="text" name="email" value="" id="email!" placeholder="Email"/>
+	</div>
+	
+	<div id="phoneContainer">
+		<label for="phone:" class="userData">Phone:</label> <input class="myClass" type="text" name="phone" value="" id="area" placeholder="Area Code"/>
+		<input class="myClass" type="text" name="phone" value="" id="prefix" placeholder="First Three Digits"/>
+		<input class="myClass" type="text" name="phone" value="" id="suffix" placeholder="Last Four Digits"/>
+	</div>
+	
+	<div id="addressContainer">
+		<label for="address:" class="userData">Address:</label> <input class="myClass" type="text" name="address" value="" id="address!" placeholder="Address"/>
+	</div>
+	
+	<div id="cityContainer">
+		<label for="city:" class="userData">City:</label> <input class="myClass" type="text" name="city" value="" id="city!" placeholder="City"/>
+	</div>
+	
+	<div id="stateContainer">
+		<label for="state:" class="userData">Select a State</label> <select class="myClass" id="stateList">
+		<option value="0" selected="selected">Click here to select a state</option>  
+		<option value="California">California</option>
+		<option value="New York">New York</option>
+		<option value="North Carolina">North Carolina</option>
+		<option value="Texas">Texas</option>
+		<option value="Wisconsin">Wisconsin</option>
+		</select>
+	</div>
+	
+	<div id="zipContainer">
+		<label for="zip:" class="userData">Zip:</label> <input class="myClass" type="text" name="zip" value="" id="zip!" placeholder="Zip"/>
+	</div>
+	
+	<div id="genderContainer">
+		<label for="sex" class="userData">Gender:</label> <input class="myClass" type="radio" name="radio1" value="Male" id="male!"/><label for="male:">Male</label> 
+		<input class="myClass" type="radio" name="radio1" value="Female" id="female!"/><label for="female:">Female</label>
+	</div>
+	
+	<div id="previousCourseContainer">
+		<label class="userData">Previous Courses:</label>
+			<div id="courseContainer">
+				<input class="myClass" type="checkbox" name="asp" value="ASP.NET" id="asp!">ASP.NET</br>
+				<input class="myClass" type="checkbox" name="advanced" value="Advanced Java" id="java">Advanced Java</br>
+				<input class="myClass" type="checkbox" name="php" value="PHP" id="php!">PHP</br>
+			</div>
+	</div>
+
+	</form>
+	
+	<input type="button"  value="Validate" id="send" onclick="sendValidation();"/>
+	
+	<input type="button"  value="Reset" id="reset" onclick="resetForm();"/>
+	
+	<h2>This is the output that was entered by the user</h2>
+	
+	<div id="nameDiv">
+		<label>Name:</label>
+	</div>
+	
+	<div id="emailDiv">
+		<label>Email:</label>
+	</div>
+	
+	<div id="phoneDiv">
+		<label>Phone::</label>
+	</div>
+	
+	<div id="addressDiv">
+		<label>Address:</label>
+	</div>
+	
+	<div id="cityDiv">
+		<label>City:</label>
+	</div>
+	
+	<div id="stateDiv">
+		<label>State:</label>
+	</div>
+	
+	<div id="zipDiv">
+		<label>Zip:</label>
+	</div>
+	
+	<div id="genderDiv">
+		<label>Gender:</label>
+	</div>
+	
+	<div id="coursesDiv">
+		<label>Previous Courses:</label>
+	</div>
+		
+</body>
+
+</html>
+
+<script type="text/javascript" charset="utf-8">
+	validate();
+</script>
