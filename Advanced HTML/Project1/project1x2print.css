@@ -1,0 +1,116 @@
+name, address, street, apartment, country, telephone, emailAddress, applicationDate, availableDate, 
+birthCountry, dateOfBirth, age, gender, schoolName, schoolAddress, yearsInSchool, motherName, 
+fatherName, emergencyTelephone, feePaid, essay, languagesSpoken, countryChoices
+                    {
+                    color: black;
+                    font-family: Times New Roman, Time, Serif;
+                    display: block; 
+                    cursor: w-resize;
+                    }
+
+student, teacher {
+                        border: outset;
+                        border-width: 2px;
+                        width: 250px;
+                        border-color: black;
+                        font-family: Times New Roman, Time, Serif;
+                        font-size: 14px;
+                        line-height: 100%;
+                        color: black;
+                        display: inline-block;
+                        width: 250px;   
+                        clear: both;
+                        margin-right: 1em;
+                        margin-top: 1em;
+                        margin-bottom: 1ex;
+                        }
+
+name {
+         text-align: center;
+         margin-right: 1em;
+         font-weight: bold;
+         font-variant: small-caps;
+         border-bottom: solid;
+         border-color: black;
+         width: 250px;
+         }
+        
+address {
+            background-color: white;
+            width: 250px;
+            }
+                
+street    {
+            padding-top: .5em;
+            }                
+                
+telephone    {
+                  padding-top: 1ex;
+                  } 
+                  
+emailAddress    {
+                      padding-top: 1ex;
+                      padding-bottom: 1ex;
+                      } 
+
+applicationDate, availableDate, dateOfBirth {
+                                                            font-style: italic;
+                                                            }
+
+schoolName {
+                  color: black;
+                  padding-top: 1ex;
+                  border-top-style: dotted;
+                  border-color: black;
+                  border-width: 2px;
+                  }
+
+motherName {
+                   color: black;
+                   border-top-style: dotted;
+                   border-color: black;
+                   border-top-width: 2px;
+                   padding-top: 1ex;
+                   }
+
+fatherName {
+                   color: black;
+                   border-top-style: dotted;
+                   border-color: black;
+                   border-top-width: 2px;
+                   padding-top: 1ex;
+                   }
+
+emergencyTelephone {
+                               color: black;
+                               padding-top: 1ex;
+                               padding-bottom: 1ex;
+                               }
+
+schoolAddress {
+                     color: black;
+                     padding-top: .5ex;
+                     }
+                     
+languagesSpoken {
+                         color: black;                 
+                         }    
+                     
+countryChoices {
+                      color: black;            
+                      }
+                                                      
+firstCountry[preference="1"]    {                                                     
+                                           color: black;
+                                           } 
+
+firstCountry, secondCountry, thirdCountry, fourthCountry, fifthCountry {
+                                                                                                display: block;
+                                                                                                }
+                                                   
+feePaid[currency="USD"]    {
+                                       color: black;
+                                       }
+secondLanguage {
+                        display: block;
+                        {

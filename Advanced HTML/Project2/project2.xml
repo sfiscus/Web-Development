@@ -1,0 +1,391 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/css" href="project2.css" media="screen"?>       
+<?xml-stylesheet type="text/xsl" href="project2.xsl" ?>     
+    <!-- Author: Sean Fiscus -->
+    <!-- Assignment: XML Project 2 -->
+    <!-- File Referenes: None -->
+    <!-- Last Modified: 3/29/15 -->
+<exchange>
+    <individual> 
+        <name affiliation="S" studentID="E00001">
+            <lastName>Fiscus</lastName>
+            <firstName>Sean </firstName>
+            <middleInitial>M</middleInitial>
+        </name>
+    
+        <address>
+            <street>324 Mill Street</street>
+            <apartment>5</apartment>
+            <city>Madison</city>
+            <state>WI</state>
+            <zipCode>53704</zipCode>
+            <country>United States</country>
+        </address>
+    
+        <telephone>(608)246-6122</telephone>
+    
+        <emailAddress>sfiscus@madisoncollege.edu</emailAddress>
+    
+        <applicationDate>
+            <month>01</month>
+            <day>03</day>
+            <year>2012</year>
+        </applicationDate>
+    
+        <availableDate>
+            <month>01</month>
+            <day>06</day>
+            <year>2012</year>
+        </availableDate>
+    
+        <birthCountry>United States</birthCountry>
+    
+        <dateOfBirth>
+            <month>03</month>
+            <day>12</day>
+            <year>1987</year>
+        </dateOfBirth>
+    
+        <age>27</age>
+    
+        <gender>Male</gender>
+    
+        <schoolName>Madison College</schoolName>
+    
+        <schoolAddress>
+            <street>3550 Anderson St.</street>
+            <apartment></apartment>
+            <city>Madison</city>
+            <state>Wisconsin</state>
+            <zipCode>53704</zipCode>
+            <country>United States</country>
+        </schoolAddress>
+    
+        <yearsInSchool>Freshman</yearsInSchool>
+    
+        <motherName>
+            <lastName>Fiscus</lastName>
+            <firstName>Karen</firstName>
+            <middleInitial>A</middleInitial>
+        </motherName>
+    
+        <fatherName>
+            <lastName>Hughes</lastName>
+            <firstName>Paul</firstName>
+            <middleInitial>O</middleInitial>
+        </fatherName>
+    
+        <emergencyTelephone>(608) 246-6121</emergencyTelephone>
+    
+        <feePaid currency="USD">250.00</feePaid>
+    
+        <essay>
+            <validate>
+                <![CDATA[
+                I want to learn about different cultures,
+                and how they live. ]]>
+            </validate>
+        </essay>
+    
+        <languagesSpoken>
+            <language fluency="4">English</language>
+            <language fluency="3">Spanish</language>
+        </languagesSpoken>
+    
+        <countryChoices>
+            <country preference="4">United States</country>
+            <country preference="1">Brazil</country>
+            <country preference="3">Japan</country>
+            <country preference="5">Mexico</country>
+            <country preference="2">Italy</country>
+        </countryChoices>
+        
+    </individual>
+    
+    <individual> 
+        <name affiliation="S" studentID="E00011">
+            <lastName>Korn</lastName>
+            <firstName>Frank </firstName>
+            <middleInitial>B</middleInitial>
+        </name>
+    
+        <address>
+            <street>445 Sing Street</street>
+            <apartment>2</apartment>
+            <city>Madison</city>
+            <state>WI</state>
+            <zipCode>53704</zipCode>
+            <country>United States</country>
+        </address>
+    
+        <telephone>(608) 246-5678</telephone>
+    
+        <emailAddress>fkorn@madisoncollege.edu</emailAddress>
+    
+        <applicationDate>
+            <month>02</month>
+            <day>04</day>
+            <year>2012</year>
+        </applicationDate>
+    
+        <availableDate>
+            <month>02</month>
+            <day>07</day>
+            <year>2012</year>
+        </availableDate>
+    
+        <birthCountry>United States</birthCountry>
+    
+        <dateOfBirth>
+            <month>04</month>
+            <day>13</day>
+            <year>1988</year>
+        </dateOfBirth>
+    
+        <age>26</age>
+    
+        <gender>Male</gender>
+    
+        <schoolName>Madison College</schoolName>
+    
+        <schoolAddress>
+            <street>3550 Anderson St.</street>
+            <apartment></apartment>
+            <city>Madison</city>
+            <state>Wisconsin</state>
+            <zipCode>53704</zipCode>
+            <country>United States</country>
+        </schoolAddress>
+    
+        <yearsInSchool>Sophomore</yearsInSchool>
+    
+        <motherName>
+            <lastName>Korn</lastName>
+            <firstName>Amy</firstName>
+            <middleInitial>A</middleInitial>
+        </motherName>
+    
+        <fatherName>
+            <lastName>Korn</lastName>
+            <firstName>John</firstName>
+            <middleInitial>O</middleInitial>
+        </fatherName>
+    
+        <emergencyTelephone>(608) 246-5600</emergencyTelephone>
+    
+        <feePaid currency="USD">250.00</feePaid>
+    
+        <essay>
+            <validate>
+                <![CDATA[
+                It gives you an opportunity to make new friends. ]]>
+            </validate>
+        </essay>
+    
+        <languagesSpoken>
+            <language fluency="3">English</language>
+            <language fluency="4">French</language>
+        </languagesSpoken>
+    
+        <countryChoices>
+            <country preference="1">United States</country>
+            <country preference="4">Brazil</country>
+            <country preference="5">Japan</country>
+            <country preference="3">Mexico</country>
+            <country preference="2">Italy</country>
+        </countryChoices>
+        
+    </individual>
+    
+    <individual> 
+        <name affiliation="S" studentID="E00111">
+            <lastName>Wright</lastName>
+            <firstName>Billy </firstName>
+            <middleInitial>U R</middleInitial>
+        </name>
+    
+        <address>
+            <street>111 Homer Street</street>
+            <apartment>1</apartment>
+            <city>Madison</city>
+            <state>WI</state>
+            <zipCode>53704</zipCode>
+            <country>United States</country>
+        </address>
+    
+        <telephone>(608) 246-1111</telephone>
+    
+        <emailAddress>bwright@madisoncollege.edu</emailAddress>
+    
+        <applicationDate>
+            <month>03</month>
+            <day>05</day>
+            <year>2012</year>
+        </applicationDate>
+    
+        <availableDate>
+            <month>03</month>
+            <day>08</day>
+            <year>2012</year>
+        </availableDate>
+    
+        <birthCountry>United States</birthCountry>
+    
+        <dateOfBirth>
+            <month>05</month>
+            <day>14</day>
+            <year>1989</year>
+        </dateOfBirth>
+    
+        <age>25</age>
+    
+        <gender>Male</gender>
+    
+        <schoolName>Madison College</schoolName>
+    
+        <schoolAddress>
+            <street>3550 Anderson St.</street>
+            <apartment></apartment>
+            <city>Madison</city>
+            <state>Wisconsin</state>
+            <zipCode>53704</zipCode>
+            <country>United States</country>
+        </schoolAddress>
+    
+        <yearsInSchool>Junior</yearsInSchool>
+    
+        <motherName>
+            <lastName>Wright</lastName>
+            <firstName>Britta</firstName>
+            <middleInitial>L</middleInitial>
+        </motherName>
+    
+        <fatherName>
+            <lastName>Wright</lastName>
+            <firstName>Forest</firstName>
+            <middleInitial>D</middleInitial>
+        </fatherName>
+    
+        <emergencyTelephone>(608) 246-1131</emergencyTelephone>
+    
+        <feePaid currency="USD">250.00</feePaid>
+    
+        <essay>
+            <validate>
+                <![CDATA[
+                I have always wanted to travel the world.]]>
+            </validate>
+        </essay>
+    
+        <languagesSpoken>
+            <language fluency="4">English</language>
+            <language fluency="2">Japanese</language>
+        </languagesSpoken>
+    
+        <countryChoices>
+            <country preference="2">United States</country>
+            <country preference="5">Brazil</country>
+            <country preference="3">Japan</country>
+            <country preference="1">Mexico</country>
+            <country preference="4">Italy</country>
+        </countryChoices>
+        
+    </individual>
+    
+    <individual> 
+        <name affiliation="T" teacherID="E01111">
+            <lastName>Martinez-Anderson</lastName>
+            <firstName>Michael </firstName>
+            <middleInitial></middleInitial>
+        </name>
+    
+        <address>
+            <street>788 Dunder Road</street>
+            <apartment></apartment>
+            <city>Madison</city>
+            <state>WI</state>
+            <zipCode>53704</zipCode>
+            <country>United States</country>
+        </address>
+    
+        <telephone>(608) 246-8989</telephone>
+    
+        <emailAddress>mscott@madisoncollege.edu</emailAddress>
+    
+        <applicationDate>
+            <month>04</month>
+            <day>05</day>
+            <year>2012</year>
+        </applicationDate>
+    
+        <availableDate>
+            <month>04</month>
+            <day>08</day>
+            <year>2012</year>
+        </availableDate>
+    
+        <birthCountry>United States</birthCountry>
+    
+        <dateOfBirth>
+            <month></month>
+            <day></day>
+            <year></year>
+        </dateOfBirth>
+    
+        <age></age>
+    
+        <gender>Male</gender>
+    
+        <schoolName>Madison College</schoolName>
+    
+        <schoolAddress>
+            <street>3550 Anderson St.</street>
+            <apartment></apartment>
+            <city>Madison</city>
+            <state>Wisconsin</state>
+            <zipCode>53704</zipCode>
+            <country>United States</country>
+        </schoolAddress>
+    
+        <yearsInSchool></yearsInSchool>
+    
+        <motherName>
+            <lastName></lastName>
+            <firstName></firstName>
+            <middleInitial></middleInitial>
+        </motherName>
+    
+        <fatherName>
+            <lastName></lastName>
+            <firstName></firstName>
+            <middleInitial></middleInitial>
+        </fatherName>
+    
+        <emergencyTelephone>(608) 246-8980</emergencyTelephone>
+    
+        <feePaid currency="USD">250.00</feePaid>
+    
+        <essay>
+            <validate>
+                <![CDATA[  
+                 I became a teacher to make a difference and thats exactly what I will do.
+                 ]]>
+            </validate>
+        </essay>
+    
+        <languagesSpoken>
+            <language fluency="2">English</language>
+            <language fluency="4">Italian</language>
+        </languagesSpoken>
+    
+        <countryChoices>
+            <country preference="2">United States</country>
+            <country preference="5">Brazil</country>
+            <country preference="3">Japan</country>
+            <country preference="1">Canada</country>
+            <country preference="4">Iran</country>
+        </countryChoices>
+        
+    </individual>
+</exchange>
+    
